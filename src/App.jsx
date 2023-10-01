@@ -18,8 +18,9 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<h3>Error 404 - Page not found</h3>}/>
         </Routes>
+        
     </>
-  );
+  )
 }
 
-export default App;
+export default App

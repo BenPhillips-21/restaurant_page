@@ -1,3 +1,74 @@
+@font-face {
+  font-family: 'Quixote-Regular';
+  src: url('/home/ben/projects/js/TOP/modules/fonts/Quixote-Regular.woff2') format('woff2'),
+       url('/home/ben/projects/js/TOP/modules/fonts/Quixote-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'don_quixote-webfont';
+  src: url('/home/ben/projects/js/TOP/modules/fonts/don_quixote-webfont.woff2') format('woff2'),
+       url('/home/ben/projects/js/TOP/modules/fonts/don_quixote-webfont.woff') format('woff');
+}
+
+
+body {
+  font-family: 'Quixote-Regular', sans-serif;
+}
+
+.home-container {
+  width: 125%;
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+}
+
+
+.text-container {
+  display: flex;
+  flex-direction: column; 
+  flex: 1; 
+  margin-top: 150px;
+}
+
+.home-container img {
+  max-width: 50%; 
+  margin: 15px;
+}
+
+
+.navbar {
+  background-color: #88070B;
+}
+
+.navbar span {
+  font-size: 1.5rem;
+  font-family: 'Quixote-Regular', sans-serif;
+  color: black;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Custom CSS to style the sticky navbar */
+.custom-navbar {
+  padding: 10px; 
+  height: 35px; /* Set the desired height for the navbar */
+  margin-top: 15px;
+}
+
+.nav-link {
+  transition: color 0.3s; 
+  font-size: 1rem;
+  font-family: 'Quixote-Regular', sans-serif;
+  margin: 40px;
+}
+
+.nav-link:hover {
+  color: #FFCE13; 
+}
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

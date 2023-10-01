@@ -3,16 +3,8 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-success">
+    <nav className="navbar navbar-expand-lg fixed-top custom-navbar">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          <img
-            src="src/pizza.png"
-            alt="Bootstrap"
-            width="30"
-            height="24"
-          />
-        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -25,9 +17,10 @@ const NavBar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+        <span>El Torero</span>
+          <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <Link className="nav-link active" to="/">
+              <Link className="nav-link" to="/">
                 Home
               </Link>
             </li>
