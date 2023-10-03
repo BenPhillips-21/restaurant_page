@@ -5,8 +5,8 @@ const Menu = () => {
     width: '18rem',
     margin: '1rem',
     marginLeft: '2.6rem',
-    marginBottom: '-1rem',
-    marginTop: '-1.2rem',
+    marginBottom: '-2rem',
+    marginTop: '-1rem',
     border: '0px solid',
     backgroundColor: 'rgba(0, 0, 0, 0)',
   };
@@ -15,7 +15,7 @@ const Menu = () => {
   return (
     <div>
       {/* Lunch Menu */}
-      <h2>Lunch Menu:</h2>
+      <h2>Lunch Menu</h2>
       <h6>11am-5pm</h6>
       <div className="row mx-auto">
         <div className="col-md-4">
@@ -48,7 +48,7 @@ const Menu = () => {
       </div>
 
       {/* Dinner Menu */}
-      <h2>Dinner Menu:</h2>
+      <h2>Dinner Menu</h2>
       <h6>5pm-Close</h6>
       <div className="row mx-auto">
         <div className="col-md-4">

@@ -1,15 +1,25 @@
 @font-face {
   font-family: 'Quixote-Regular';
-  src: url('/home/ben/projects/js/TOP/modules/fonts/Quixote-Regular.woff2') format('woff2'),
-       url('/home/ben/projects/js/TOP/modules/fonts/Quixote-Regular.woff') format('woff');
+  src: url('src/fonts/Quixote-Regular.woff2') format('woff2'),
+       url('src/fonts/Quixote-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'don_quixote-webfont';
-  src: url('/home/ben/projects/js/TOP/modules/fonts/don_quixote-webfont.woff2') format('woff2'),
-       url('/home/ben/projects/js/TOP/modules/fonts/don_quixote-webfont.woff') format('woff');
+  src: url('src/fonts/don_quixote-webfont.woff2') format('woff2'),
+       url('src/fonts/don_quixote-webfont.woff') format('woff');
 }
 
+h2 {
+  font-family: 'don_quixote-webfont';
+  font-size: 4rem;
+}
+
+.about-container h3 {
+  font-family: 'don_quixote-webfont';
+  font-size: 4rem;
+  margin-bottom: auto;
+}
 
 body {
   font-family: 'Quixote-Regular', sans-serif;
