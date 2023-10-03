@@ -1,13 +1,19 @@
 @font-face {
   font-family: 'Quixote-Regular';
-  src: url('src/fonts/Quixote-Regular.woff2') format('woff2'),
-       url('src/fonts/Quixote-Regular.woff') format('woff');
+  src: url('../public/fonts/Quixote-Regular.woff2') format('woff2'),
+       url('../public/fonts/Quixote-Regular.woff') format('woff');
+}
+.Quixote-Regular {
+  font-family: Quixote-Regular;
 }
 
 @font-face {
   font-family: 'don_quixote-webfont';
-  src: url('src/fonts/don_quixote-webfont.woff2') format('woff2'),
-       url('src/fonts/don_quixote-webfont.woff') format('woff');
+  src: url('../public/fonts/don_quixote-webfont.woff2') format('woff2'),
+       url('../public/fonts/don_quixote-webfont.woff2') format('woff');
+}
+.don_quixote-webfont {
+  font-family: don_quixote-webfont;
 }
 
 h2 {

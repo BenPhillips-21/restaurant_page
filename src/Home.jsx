@@ -6,7 +6,7 @@ const Home = () => {
       <span>Auténticos sabores españoles | De origen local</span>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quos voluptas illum tenetur culpa tempore facilis at debitis doloribus, ducimus laudantium praesentium et aut rem ea labore maxime molestiae ipsum repellendus ullam! Similique, ut quo.</p>
       </div>
-        <img src="src/images/Spanish_Food.jpg"></img>
+        <img src="/images/Spanish_Food.jpg" alt="table of Spanish food"></img>
     </div>
   )
 }
