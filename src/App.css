@@ -13,7 +13,24 @@
 
 body {
   font-family: 'Quixote-Regular', sans-serif;
+  color: #FFCE13;
 }
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-container img {
+  width: 40%;
+  margin: 40px;
+}
+
+.about-container p {
+  width: 60%;
+}
+
 
 .home-container {
   width: 125%;
@@ -31,9 +48,79 @@ body {
   margin-top: 150px;
 }
 
+.text-container h3 {
+  font-family: 'don_quixote-webfont';
+  font-size: 4rem;
+  margin-bottom: -15px;
+}
+
+.text-container span {
+  font-size: 1.10rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.text-container p {
+  text-align: justify;
+  font-size: 0.92rem;
+  width: 90%;
+  margin-left: 30px;
+  letter-spacing: 1px;
+}
+
 .home-container img {
-  max-width: 50%; 
+  max-width: 70%; 
   margin: 15px;
+  height: 470px;
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: none;
+  }
+
+
+.list-group-item {
+  background-color: rgba(0, 0, 0, 0);
+  color: #FFCE13;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.about-container {
+  margin-bottom: 50px;
+}
+
+.list-unstyled li {
+  margin: -35px auto;
+  letter-spacing: 1px;
+}
+
+h5 {
+  margin-top: 40px;
+  margin-left: 35px;
+}
+
+footer {
+  color: purple;
+}
+
+footer p {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+footer h5 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #B43930;
 }
 
 

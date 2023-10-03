@@ -4,6 +4,7 @@ import Menu from './Menu.jsx'
 import About from './About.jsx'
 import Contact from './Contact.jsx'
 import NavBar from './NavBar'
+import Footer from './Footer.jsx'
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<h3>Error 404 - Page not found</h3>}/>
         </Routes>
-        
+        <Footer />
     </>
   )
 }
